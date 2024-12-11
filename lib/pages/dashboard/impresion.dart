@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/pages/dashboard/mood_log.dart';
-import 'package:myapp/pages/register.dart';
 import 'package:myapp/utils/colors.dart';
-import 'package:myapp/utils/fonts.dart';
 
 class ImpresionPage extends StatelessWidget {
   const ImpresionPage({super.key});

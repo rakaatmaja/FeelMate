@@ -2,9 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:myapp/pages/dashboard/resullt.dart';
-import 'package:myapp/pages/register.dart';
 import 'package:myapp/utils/colors.dart';
-import 'package:myapp/utils/fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 class InputPage extends StatefulWidget {
@@ -49,7 +47,7 @@ class _InputPageState extends State<InputPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.symmetric(
+                          margin: const EdgeInsets.symmetric(
                               horizontal: 21, vertical: 24),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
@@ -66,7 +64,7 @@ class _InputPageState extends State<InputPage> {
                           child: Column(
                             children: [
                               Container(
-                                margin: EdgeInsets.only(
+                                margin: const EdgeInsets.only(
                                     left: 31, top: 31, right: 31),
                                 child: Column(
                                   children: [

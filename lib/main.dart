@@ -1,10 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/dashboard/db1.dart';
-import 'package:myapp/pages/dashboard/impresion.dart';
-import 'package:myapp/pages/dashboard/input_image.dart';
-import 'package:myapp/pages/dashboard/mood_log.dart';
-import 'package:myapp/pages/dashboard/resullt.dart';
-import 'package:myapp/pages/register.dart';
 import 'package:myapp/pages/started.dart';
 
 void main() {

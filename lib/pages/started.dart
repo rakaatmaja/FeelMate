@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/pages/register.dart';
 import 'package:myapp/utils/colors.dart';
-import 'package:myapp/utils/fonts.dart';
 
 class StartedPage extends StatelessWidget {
   const StartedPage({super.key});
@@ -48,8 +47,8 @@ class StartedPage extends StatelessWidget {
                                   'assets/started.png',
                                 ),
                               ),
-                              Container(
-                                child: const Column(
+                             const SizedBox(
+                                child: Column(
                                   children: [
                                     Text(
                                       'Welcome to FeelMate',

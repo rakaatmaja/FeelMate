@@ -5,7 +5,7 @@ import 'package:myapp/pages/dashboard/input_image.dart';
 import 'package:myapp/utils/colors.dart';
 
 class Db1 extends StatelessWidget {
-  const Db1({Key? key}) : super(key: key);
+  const Db1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -30,19 +30,19 @@ class Db1 extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.w600,
-                      color: Color(0xff1B4432),
+                      color: const Color(0xff1B4432),
                       fontFamily: GoogleFonts.poppins().fontFamily,
                     ),
                   ),
                   const SizedBox(height: 20),
                   _buildButton("Let's write out about it", () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => ImpresionPage()));
+                        MaterialPageRoute(builder: (_) => const ImpresionPage()));
                   }),
                   const SizedBox(height: 16),
                   _buildButton("Let's find out what's your feeling", () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => InputPage()));
+                        MaterialPageRoute(builder: (_) => const InputPage()));
                   }),
                 ],
               ),
@@ -107,7 +107,7 @@ class Db1 extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 1),
         child: Text(
           text,
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
             color: Colors.black54,

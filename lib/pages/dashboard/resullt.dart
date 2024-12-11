@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/register.dart';
-import 'package:myapp/utils/colors.dart';
-import 'package:myapp/utils/fonts.dart';
 
 class ResultPage extends StatelessWidget {
   const ResultPage({super.key});
@@ -25,7 +22,7 @@ class ResultPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.symmetric(horizontal: 21 ,vertical: 24),
+                          margin: const EdgeInsets.symmetric(horizontal: 21 ,vertical: 24),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             color: Colors.white,
@@ -41,7 +38,7 @@ class ResultPage extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                margin: EdgeInsets.only(left: 31 , top: 31, right: 31),
+                                margin: const EdgeInsets.only(left: 31 , top: 31, right: 31),
                                 child: Column(
                                   children: [
                                     const Text(

@@ -81,7 +81,7 @@ class _MoodLogPageState extends State<MoodLogPage> {
             "My day was so crowded, and I can even think cause so many activity that I cannot controlled",
             style: TextStyle(
               fontSize: 14,
-              color: Color(0xff82829E),
+              color: const Color(0xff82829E),
               fontFamily: GoogleFonts.poppins().fontFamily,
             ),
           ),
